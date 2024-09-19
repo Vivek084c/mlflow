@@ -13,6 +13,10 @@ from mlflow.models.signature import infer_signature
 import mlflow.sklearn
 import logging
 
+#connection setup
+import dagshub
+dagshub.init(repo_owner='Vivek084c', repo_name='mlflow', mlflow=True)
+
 # logging
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
@@ -62,8 +66,8 @@ if __name__=="__main__":
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
 
-        prediction = lr.predict(test_x)
-        signature = infer_signature(train_x, prediction)
+        # remote_server_uri = 
+        # mlflow.set_tracking_uri(remote_server_uri)
 
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
@@ -72,8 +76,8 @@ if __name__=="__main__":
         if tracking_url_type_store != "file":
             #tracking in uri
             mlflow.sklearn.log_model(
-                lr, "model", registered_model_name="ElasticcnetWithModel", signature=signature
+                lr, "model", registered_model_name="ElasticcnetWithModel"
             )
         else:
             #tracking in local
-            mlflow.sklearn.log_model(lr, "model", signature=signature)
+            mlflow.sklearn.log_model(lr, "model")
