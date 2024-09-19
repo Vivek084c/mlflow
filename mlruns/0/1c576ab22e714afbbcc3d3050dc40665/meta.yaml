@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vivek/work/GIT/ML/MLOPS/mlop_2/mlruns/0/1c576ab22e714afbbcc3d3050dc40665/artifacts
+end_time: 1726761586432
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c576ab22e714afbbcc3d3050dc40665
+run_name: indecisive-vole-300
+run_uuid: 1c576ab22e714afbbcc3d3050dc40665
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726761585192
+status: 3
+tags: []
+user_id: vivek

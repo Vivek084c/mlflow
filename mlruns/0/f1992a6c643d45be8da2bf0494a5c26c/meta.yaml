@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vivek/work/GIT/ML/MLOPS/mlop_2/mlruns/0/f1992a6c643d45be8da2bf0494a5c26c/artifacts
+end_time: 1726761607066
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1992a6c643d45be8da2bf0494a5c26c
+run_name: silent-moth-309
+run_uuid: f1992a6c643d45be8da2bf0494a5c26c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726761605911
+status: 3
+tags: []
+user_id: vivek

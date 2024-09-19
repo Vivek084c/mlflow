@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vivek/work/GIT/ML/MLOPS/mlop_2/mlruns/0/71e2b959880a4214b940aee51fd115db/artifacts
+end_time: 1726761929583
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 71e2b959880a4214b940aee51fd115db
+run_name: debonair-ram-734
+run_uuid: 71e2b959880a4214b940aee51fd115db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726761928360
+status: 3
+tags: []
+user_id: vivek

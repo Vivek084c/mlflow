@@ -1,0 +1,28 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.14
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.14.2
+model_size_bytes: 769
+model_uuid: d0607d380d6443b3b4813d8b9a8347c3
+run_id: 1c576ab22e714afbbcc3d3050dc40665
+signature:
+  inputs: '[{"type": "double", "name": "Avg. Area Income", "required": true}, {"type":
+    "double", "name": "Avg. Area House Age", "required": true}, {"type": "double",
+    "name": "Avg. Area Number of Rooms", "required": true}, {"type": "double", "name":
+    "Avg. Area Number of Bedrooms", "required": true}, {"type": "double", "name":
+    "Area Population", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-09-19 15:59:45.208606'
